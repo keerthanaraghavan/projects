@@ -1,10 +1,4 @@
 <<<<<<< HEAD
-0 keerthana 
-1 YASHODHA
-2 rida fathima
-3 diviya
-4 unknown
-=======
 0 YASHODHA
 1 KEERTHANA
 >>>>>>> master
