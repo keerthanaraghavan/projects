@@ -1,10 +1,26 @@
 **Face Recognition Using TensorFlow and OpenCV**
 
+**Features**
+
+Real-time Recognition: Detects and classifies faces in real-time using a webcam.
+
+Customizable Classes: Allows users to define and train classes for recognition.
+
+Simple Workflow: Easy-to-follow procedure with Google Teachable Machine for training and TensorFlow for inference.
+
+High Accuracy: Confidence scores provide insights into the reliability of predictions.
+
+Lightweight Setup: Requires minimal dependencies and runs on a standard computer with a webcam.
+
+Extensible: Can be adapted for object recognition, gesture detection, or other classification tasks.
+
+
 **Full Project Procedure**
 
 This section provides a step-by-step guide to building a face recognition system using Google Teachable Machine, TensorFlow, and OpenCV.
 
-Step 1: Collect and Train Data Using Teachable Machine
+
+**Step 1: Collect and Train Data Using Teachable Machine**
 
 **Go to Teachable Machine**
 ![Screenshot (32)](https://github.com/user-attachments/assets/51f70daa-f630-4440-a720-4813cd1bef77)
@@ -40,7 +56,7 @@ Use your webcam or upload images for each class. Ensure you collect diverse and 
 
 **Step 2: Set Up the Project Environmen**t
 
-Install Python
+**Install Python**
 
 Download and install Python 3.12 from the official Python website.
 
@@ -48,7 +64,7 @@ Install Required Libraries
 
 Open a terminal or command prompt and run:
 
-pip install tensorflow opencv-python numpy
+**pip install tensorflow opencv-python numpy**
 
 Create a Project Folder
 
@@ -56,18 +72,18 @@ Organize your files into a folder. Place keras_model.h5, labels.txt, and the Pyt
 
 **Step 3: Write the Python Script**
 
-Import Required Libraries
+**Import Required Libraries**
 
 from tensorflow.keras.models import load_model
 import cv2
 import numpy as np
 
-Load the Model and Labels
+**Load the Model and Labels**
 
 model = load_model("keras_model.h5", compile=False)
 class_names = open("labels.txt", "r").readlines()
 
-Capture Webcam Feed and Predict
+**Capture Webcam Feed and Predict**
 
 camera = cv2.VideoCapture(0)
 while True:
@@ -85,9 +101,9 @@ while True:
 camera.release()
 cv2.destroyAllWindows()
 
-Step 4: Run the Project
+**Step 4: Run the Project**
 
-Start the Script
+**Start the Script**
 
 **Run the Python script:**
 The webcam feed will open. You will see predictions and confidence scores in the terminal.
