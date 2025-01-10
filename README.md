@@ -56,10 +56,14 @@ labels.txt (class labels)
 main.py (Python script for running the program).
 
 **Step 3: Run the Project**
-![Screenshot (37)](https://github.com/user-attachments/assets/9eb6ee17-62c7-47b7-babf-8ad05e58d10d)
+![Screenshot (44)](https://github.com/user-attachments/assets/7e56bb39-268e-4a3a-8350-79f48f99f27e)
+
+
 Start the Program
 
-Run the Python script (main.py).
+**Run the Python script (image.py).**
+![Screenshot (37)](https://github.com/user-attachments/assets/9eb6ee17-62c7-47b7-babf-8ad05e58d10d)
+
 **View Predictions**
 ![image](https://github.com/user-attachments/assets/491bb268-a217-4ff2-8b20-1df4f7001ab8)
 The webcam feed will open, and predictions with confidence scores will be displayed in the terminal.
