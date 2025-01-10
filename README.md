@@ -83,7 +83,8 @@ import numpy as np
 model = load_model("keras_model.h5", compile=False)
 class_names = open("labels.txt", "r").readlines()
 
-**Capture Webcam Feed and Predict**
+Capture Webcam Feed and Predict
+
 camera = cv2.VideoCapture(0)
 while True:
     ret, image = camera.read()
