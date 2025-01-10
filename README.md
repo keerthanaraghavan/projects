@@ -101,6 +101,7 @@ while True:
 camera.release()
 cv2.destroyAllWindows()
 
+
 **Step 4: Run the Project**
 
 **Start the Script**
