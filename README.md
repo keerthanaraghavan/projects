@@ -62,7 +62,6 @@ main.py (Python script for running the program).
 Start the Program
 
 **Run the Python script (image.py).**
-![Screenshot (37)](https://github.com/user-attachments/assets/9eb6ee17-62c7-47b7-babf-8ad05e58d10d)
 
 **View Predictions**
 ![image](https://github.com/user-attachments/assets/491bb268-a217-4ff2-8b20-1df4f7001ab8)
